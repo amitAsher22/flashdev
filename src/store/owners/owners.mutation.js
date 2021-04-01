@@ -10,7 +10,7 @@ export default {
     resetEditedOwner: ((state ) => {
         for (const key of state.editedOwner){
             state.editedOwner[key] = ''
-
+j
         }
        delete state.editedOwner.id
     }),
